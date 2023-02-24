@@ -1,0 +1,8 @@
+{
+  "name": "ov-promise-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lastgiven/ov-promise-demo.git",
+  "author": "Werner Potgieter <88084765+werner-openvantage@users.noreply.github.com>",
+  "license": "MIT"
+}
