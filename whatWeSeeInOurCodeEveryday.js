@@ -11,7 +11,7 @@ const logInUser = async () => {
         }
         const user = await getUser();
         const { password } = user;
-        if ('qweqwe2' !== password) {
+        if ('qweqwe' !== password) {
             throw new Error('Password incorrect');
         }
         if (user.status !== 'ACTIVE') {

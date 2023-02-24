@@ -10,7 +10,7 @@ const logInUser = async () => {
         }
     }).then(getUser).then((user) => {
         const { password } = user;
-        if ('qweqwe2' !== password) {
+        if ('qweqwe' !== password) {
             throw new Error('Password incorrect');
         }
         if (user.status !== 'ACTIVE') {
